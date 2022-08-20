@@ -1,0 +1,139 @@
+@import url(_variaveis.css);
+@import url(navbar.css);
+
+body {
+
+margin: auto;
+color:navy;
+/*background: url(https://img.freepik.com/fotos-premium/codigo-fonte-da-area-de-trabalho-e-papel-de-parede-por-linguagem-de-computador-com-codificacao-e-programacao_33771-595.jpg?w=2000);*/
+background-color: #E0FFFF;
+text-align: justify;
+width: 1250px;
+}
+
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/*.btn-primary {
+  background-color: var(--roxo);
+}*/
+
+header .middle ul {
+    display: flex;
+}
+
+header .middle li {
+    margin: 0 10px;
+}
+
+header .middle a {
+    text-decoration: none;
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+
+
+footer .buttons--area {
+    display: flex;
+    justify-content: center;
+}
+footer .buttons--area a {
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+footer .btn--dark {
+    background-color: var(--btn-dark-bg);
+    color: var(--btn-dark-color);
+}
+footer .arrow--area {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 30px;}
+    
+@keyframes arrow {
+    0% {
+        margin-top: 0px;
+    }
+    50% {
+        margin-top: 15px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+footer .arrow {
+    height: 15px;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+.img-450 {
+  width: 150px; 
+}
+.clique {
+  text-decoration-color: #E0FFFF;
+
+}
+
+.corpo-texto {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.card-body .sobre-direita {
+  margin-right: 500px;
+}
+
+.rounded-circle {
+  width: 200px;
+  height: 200px;
+
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#area
+{
+  position:relative;
+  left:37%;
+  top:29%;
+  width:320px;
+  height:270px;
+}
+
+fieldset
+{
+  width:300px;
+  height:250px;
+}
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+

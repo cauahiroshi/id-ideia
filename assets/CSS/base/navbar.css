@@ -1,0 +1,28 @@
+.navbar .navbar-brand {
+    color: var(--preto);
+
+    font-size: 2rem;
+    font-family:Fantasy;
+}
+
+.nav-link {
+    color: var(--branco);
+}
+
+.navbar {
+    padding: 0;
+    width: 100vw;
+}
+
+.container-fluid {
+    background-color: #ADD8E6;
+
+    width: 100vw;
+    
+    font-family: var(--familia-corpo);
+}
+
+.btn {
+    color: var(--branco);
+    border-color: var(--branco);
+}

@@ -1,0 +1,15 @@
+:root {
+    --branco: #FFFFFF;
+    --cinza: #909090;
+    --preto: #202020;
+    --preto-transparente: #0000000F;
+    --btn-dark-bg:  rgba(23, 26, 32, 0.8);
+    --btn-light-bg: rgba(255, 255, 255, 0.65);
+    --btn-dark-color: #fff;
+   
+    
+
+    
+    --famnilia-corpo: 'Montserrat', sans-serif;
+    --familia-logo: 'Bradley Hand', cursive;
+}
